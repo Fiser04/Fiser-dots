@@ -1,0 +1,15 @@
+/*** Hide Tab Close buttons ***/
+.tabbrowser-tab .tab-close-button {
+  visibility: collapse !important;
+}
+
+/* Remove close button*/ .titlebar-buttonbox-container{ display:none }
+
+#tabbrowser-tabs:not([overflow="true"]) ~ #alltabs-button{ display: none }
+#context_openANewTab, #context_openANewTab + menuseparator {
+   display: none !important;
+}
+#tabs-newtab-button {
+     display:none !important;
+}
+
