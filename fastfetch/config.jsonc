@@ -3,41 +3,52 @@
   "logo":{
 	//"type": "kitty-direct",
 	"source": "~/.config/fastfetch/logos/shop.jpg",
-	"width": 35
-	
-},		 
+	"width": 35,
+	"padding": {
+		"top": 1
+	}
+  },
+"display": {
+    "separator": "    ",
+    "color": "cyan"
+},
  "modules": [
-//    "title",
-//    "separator",
-	{
-	"type":"separator",
-	"string":" "},
-    "os",
-    "host",
-    "kernel",
-//    "uptime",
-//    "packages",
-    "shell",
-//    "display",
-//    "de",
-    "wm",
-//    "wmtheme",
-//    "theme",
-//   "icons",
-//   "font",
-//   "cursor",
-//   "terminal",
-//   "terminalfont",
-    "cpu",
-//    "gpu",
-    "memory",
-//    "swap",
-    "disk",
-//    "localip",
-//   "battery",
-//   "poweradapter",
-//   "locale",
-//   "break",
-//   "colors"
+"break",
+"break",
+       {
+      "type": "os",
+      "key": "󰣇",
+      "keyColor": "cyan"
+    },
+       {
+      "type": "kernel",
+      "key": "",
+      "keyColor": "yellow"
+    },
+       {
+      "type": "shell",
+      "key": "",
+      "keyColor": "magenta"
+    },
+       {
+      "type": "wm",
+      "key": "",
+      "keyColor": "red"
+    },
+    {
+      "type": "cpu",
+      "key": "",
+      "keyColor": "cyan"
+    }, 
+      {
+      "type": "memory",
+      "key": "",
+      "keyColor": "green"
+    }, 
+       {
+      "type": "disk",
+      "key": "",
+      "keyColor": "magenta"
+    } 
   ]
 }
