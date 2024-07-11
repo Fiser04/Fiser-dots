@@ -3,7 +3,7 @@
         font-family: "JetBrains Mono", "Font Awesome 6 Free";
 }
 window#waybar {
-    background: rgba(43, 48, 59, 0.6);
+    background: rgba(43, 48, 59, 0);
     color: white;
     border-radius: 20px;
    
@@ -11,7 +11,7 @@ window#waybar {
     padding-bottom:2px;*/
 }
 #temperature, #memory, #network, #bluetooth, #pulseaudio, #backlight, #battery, #clock {
-border: 1px solid white;
+border: 2px solid white;
 background: rgba(43, 48, 59, 0.8);
 border-radius: 20px;
 margin-left: 2px;
@@ -34,7 +34,7 @@ padding-left:10px;
 }
 #cpu{
 background:	rgba(43, 48, 59, 0.8);
-border: 1px solid white;
+border: 2px solid white;
 border-radius: 20px;
 margin-left: 6px;
 margin-right: 2px;
